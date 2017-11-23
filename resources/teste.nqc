@@ -1,0 +1,4 @@
+task main() {
+    SetPower(OUT_A, OUT_FULL);    // Turn on motor A at 100% power.
+    OnFor(OUT_A, 200); 
+}
